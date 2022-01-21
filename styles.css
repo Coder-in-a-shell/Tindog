@@ -1,0 +1,129 @@
+body{
+    font-family: "Montserrat";
+}
+.navbar{
+    font-size: 20px;
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-family: "ubuntu";
+}
+.nav-item{
+    padding:0 18px;
+}
+#title{
+    color:white;
+    position: relative;
+    background-color: #ff4c68;
+}
+h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat"; 
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: large;
+}
+.container-fluid{
+    padding: 5% 15% 7%;
+}
+
+.rotated {
+    transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+    padding-top: 25px;
+    width:20%;
+    position: absolute;
+    right: 25%;
+} 
+.download-button{
+    margin:5% 3% 5% 0;
+}
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+}
+.icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icons:hover{
+    color: #ff4c68;
+}
+
+/*Testimonial Section*/
+#testimonials{
+    color: #fff;
+    background-color: #ef8172;
+    text-align: center;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 30px;
+}
+.card{
+    margin: 0% 5%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+@media(max-width:1040px){
+    #title{
+        text-align: center;
+    }
+    .rotated{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+#cta{
+    text-align: center;
+    padding-top: 4rem;
+    background-color: #ff4c68;
+    color: white;
+}
+.cta-text{
+    font-size: 3.5rem;
+    width: 60%;
+    margin-left: 20%;
+}
+#footer{
+    text-align: center;
+    padding:50px;
+    line-height: 2;
+    
+}
